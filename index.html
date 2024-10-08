@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>STEM Fellowship Career Center</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="https://www.stemfellowship.org/" class="logo-link">
+                    <img src="images/stem_logo.png" alt="STEM Fellowship Logo" class="logo">
+                </a>
+            </div>
+            <ul class="navbar-links">
+                <li class="dropdown">
+                    <a href="#" class="nav-link">Employers/Colleges</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Post a Job</a></li>
+                        <li><a href="#">My Account</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link">Job Seekers/Students</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Certificates/Diplomas/Degrees</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="navbar-button">
+                <button class="btn primary" onclick="postJob()">Post a Job/Education</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>STEM Fellowship Career Center</h1>
+            <p>We’re connecting students, universities and BigTech.</p>
+            <div class="hero-buttons">
+                <button class="btn primary" onclick="postJob()">Post a Job/Education</button>
+                <button class="btn secondary" onclick="searchJob()">Search a Job/Education</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sponsors Section -->
+    <section class="sponsors">
+        <img src="images/wsrc_logo.png" alt="Western Student Research Conference">
+        <img src="images/usern_logo.png" alt="USERN">
+        <img src="images/wolfram_logo.png" alt="Wolfram">
+        <img src="images/projectpulse_logo.png" alt="Project Pulse">
+        <img src="images/schulich_logo.png" alt="Schulich Foundation">
+    </section>
+</body>
+</html>
